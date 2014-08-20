@@ -19,6 +19,14 @@
 		A6F9239C19A49A99009B7356 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F9238419A49A99009B7356 /* UIKit.framework */; };
 		A6F923A419A49A99009B7356 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F923A219A49A99009B7356 /* InfoPlist.strings */; };
 		A6F923A619A49A99009B7356 /* Lesson_5_HomeTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923A519A49A99009B7356 /* Lesson_5_HomeTaskTests.m */; };
+		A6F923B119A49BAD009B7356 /* OLHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923B019A49BAD009B7356 /* OLHuman.m */; };
+		A6F923B519A49BFD009B7356 /* OLRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923B419A49BFD009B7356 /* OLRunner.m */; };
+		A6F923B819A49C0E009B7356 /* OLSwimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923B719A49C0E009B7356 /* OLSwimmer.m */; };
+		A6F923BB19A49C24009B7356 /* OLBicyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923BA19A49C24009B7356 /* OLBicyclist.m */; };
+		A6F923BE19A4A5E2009B7356 /* OLDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923BD19A4A5E2009B7356 /* OLDeveloper.m */; };
+		A6F923C119A4A9BF009B7356 /* OLAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923C019A4A9BF009B7356 /* OLAnimal.m */; };
+		A6F923C419A4AB45009B7356 /* OLDog.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923C319A4AB45009B7356 /* OLDog.m */; };
+		A6F923C719A4AB50009B7356 /* OLHorse.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F923C619A4AB50009B7356 /* OLHorse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,22 @@
 		A6F923A119A49A99009B7356 /* Lesson 5 HomeTaskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson 5 HomeTaskTests-Info.plist"; sourceTree = "<group>"; };
 		A6F923A319A49A99009B7356 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6F923A519A49A99009B7356 /* Lesson_5_HomeTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_5_HomeTaskTests.m; sourceTree = "<group>"; };
+		A6F923AF19A49BAD009B7356 /* OLHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLHuman.h; sourceTree = "<group>"; };
+		A6F923B019A49BAD009B7356 /* OLHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLHuman.m; sourceTree = "<group>"; };
+		A6F923B319A49BFD009B7356 /* OLRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLRunner.h; sourceTree = "<group>"; };
+		A6F923B419A49BFD009B7356 /* OLRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLRunner.m; sourceTree = "<group>"; };
+		A6F923B619A49C0E009B7356 /* OLSwimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLSwimmer.h; sourceTree = "<group>"; };
+		A6F923B719A49C0E009B7356 /* OLSwimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLSwimmer.m; sourceTree = "<group>"; };
+		A6F923B919A49C24009B7356 /* OLBicyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLBicyclist.h; sourceTree = "<group>"; };
+		A6F923BA19A49C24009B7356 /* OLBicyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLBicyclist.m; sourceTree = "<group>"; };
+		A6F923BC19A4A5E2009B7356 /* OLDeveloper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLDeveloper.h; sourceTree = "<group>"; };
+		A6F923BD19A4A5E2009B7356 /* OLDeveloper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLDeveloper.m; sourceTree = "<group>"; };
+		A6F923BF19A4A9BF009B7356 /* OLAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLAnimal.h; sourceTree = "<group>"; };
+		A6F923C019A4A9BF009B7356 /* OLAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLAnimal.m; sourceTree = "<group>"; };
+		A6F923C219A4AB45009B7356 /* OLDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLDog.h; sourceTree = "<group>"; };
+		A6F923C319A4AB45009B7356 /* OLDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLDog.m; sourceTree = "<group>"; };
+		A6F923C519A4AB50009B7356 /* OLHorse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLHorse.h; sourceTree = "<group>"; };
+		A6F923C619A4AB50009B7356 /* OLHorse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLHorse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,7 @@
 		A6F9238619A49A99009B7356 /* Lesson 5 HomeTask */ = {
 			isa = PBXGroup;
 			children = (
+				A6F923B219A49BB6009B7356 /* Classes */,
 				A6F9238F19A49A99009B7356 /* OLAppDelegate.h */,
 				A6F9239019A49A99009B7356 /* OLAppDelegate.m */,
 				A6F9239219A49A99009B7356 /* Images.xcassets */,
@@ -142,6 +167,29 @@
 				A6F923A219A49A99009B7356 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6F923B219A49BB6009B7356 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6F923AF19A49BAD009B7356 /* OLHuman.h */,
+				A6F923B019A49BAD009B7356 /* OLHuman.m */,
+				A6F923B319A49BFD009B7356 /* OLRunner.h */,
+				A6F923B419A49BFD009B7356 /* OLRunner.m */,
+				A6F923B619A49C0E009B7356 /* OLSwimmer.h */,
+				A6F923B719A49C0E009B7356 /* OLSwimmer.m */,
+				A6F923B919A49C24009B7356 /* OLBicyclist.h */,
+				A6F923BA19A49C24009B7356 /* OLBicyclist.m */,
+				A6F923BC19A4A5E2009B7356 /* OLDeveloper.h */,
+				A6F923BD19A4A5E2009B7356 /* OLDeveloper.m */,
+				A6F923BF19A4A9BF009B7356 /* OLAnimal.h */,
+				A6F923C019A4A9BF009B7356 /* OLAnimal.m */,
+				A6F923C219A4AB45009B7356 /* OLDog.h */,
+				A6F923C319A4AB45009B7356 /* OLDog.m */,
+				A6F923C519A4AB50009B7356 /* OLHorse.h */,
+				A6F923C619A4AB50009B7356 /* OLHorse.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F923C719A4AB50009B7356 /* OLHorse.m in Sources */,
+				A6F923C419A4AB45009B7356 /* OLDog.m in Sources */,
+				A6F923BE19A4A5E2009B7356 /* OLDeveloper.m in Sources */,
+				A6F923B119A49BAD009B7356 /* OLHuman.m in Sources */,
+				A6F923C119A4A9BF009B7356 /* OLAnimal.m in Sources */,
 				A6F9238D19A49A99009B7356 /* main.m in Sources */,
+				A6F923B519A49BFD009B7356 /* OLRunner.m in Sources */,
+				A6F923B819A49C0E009B7356 /* OLSwimmer.m in Sources */,
 				A6F9239119A49A99009B7356 /* OLAppDelegate.m in Sources */,
+				A6F923BB19A49C24009B7356 /* OLBicyclist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
