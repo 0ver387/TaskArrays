@@ -195,19 +195,19 @@
 #pragma mark - Lesson SuperMan
 
      OLRunner *runner1 = [[OLRunner alloc]init];
-     runner1.name = @"Вадин";
+     runner1.name = @"Борис";
      runner1.height = 184.0f;
      runner1.weight = 76.8f;
      runner1.isMale = YES;
      
      OLSwimmer *swimmer1 = [[OLSwimmer alloc]init];
-     swimmer1.name = @"Олеся";
+     swimmer1.name = @"Янна";
      swimmer1.height = 170.0f;
      swimmer1.weight = 45.2f;
      swimmer1.isMale = NO;
      
      OLBicyclist *bicyclist1 = [[OLBicyclist alloc]init];
-     bicyclist1.name = @"Виталий";
+     bicyclist1.name = @"Алексей";
      bicyclist1.height = 190.2f;
      bicyclist1.weight = 80.4f;
      bicyclist1.isMale = YES;
@@ -228,10 +228,12 @@
      horse1.name = @"Плотва";
      horse1.isPredator = NO;
      
-     NSArray *humans = [[NSArray alloc]initWithObjects:runner1, swimmer1, bicyclist1, developer1, nil];
-     NSArray *animals = [[NSArray alloc]initWithObjects:dog1, horse1,nil];
-    NSArray *ar = [[NSArray alloc]initWithArray:[humans arrayByAddingObjectsFromArray:animals]];
-    NSArray *sorted = [ar so;
+//     NSArray *humans = [[NSArray alloc]initWithObjects:runner1, swimmer1, bicyclist1, developer1, nil];
+//     NSArray *animals = [[NSArray alloc]initWithObjects:dog1, horse1,nil];
+//    NSArray *creatures = [[NSArray alloc]initWithArray:[humans arrayByAddingObjectsFromArray:animals]];
+//    NSSortDescriptor *name = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
+//    //NSArray *sorted = [animals sortedArrayUsingDescriptors:[NSArray arrayWithObject:name]];
+//    NSArray *sorted = [creatures]
     return YES;
 }
 
