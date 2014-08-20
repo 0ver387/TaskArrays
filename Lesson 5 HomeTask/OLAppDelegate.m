@@ -228,12 +228,31 @@
      horse1.name = @"Плотва";
      horse1.isPredator = NO;
      
-//     NSArray *humans = [[NSArray alloc]initWithObjects:runner1, swimmer1, bicyclist1, developer1, nil];
-//     NSArray *animals = [[NSArray alloc]initWithObjects:dog1, horse1,nil];
-//    NSArray *creatures = [[NSArray alloc]initWithArray:[humans arrayByAddingObjectsFromArray:animals]];
-//    NSSortDescriptor *name = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
-//    //NSArray *sorted = [animals sortedArrayUsingDescriptors:[NSArray arrayWithObject:name]];
-//    NSArray *sorted = [creatures]
+     NSArray *humans = [[NSArray alloc]initWithObjects:runner1, swimmer1, bicyclist1, developer1, nil];
+     NSArray *animals = [[NSArray alloc]initWithObjects:dog1, horse1,nil];
+    NSArray *creatures = [[NSArray alloc]initWithArray:[humans arrayByAddingObjectsFromArray:animals]];
+    NSArray *sorted = [creatures sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2){
+        if ([obj1 isKindOfClass:[OLHuman class]] && [obj2 isKindOfClass:[OLHuman class]]) {
+            return [[obj1 name] compare:[obj2 name]];
+        }else if ([obj1 isKindOfClass:[OLAnimal class]] && [obj2 isKindOfClass:[OLAnimal class]]){
+            return [[obj1 name] compare:[obj2 name]];
+        }else{
+            return NSOrderedAscending;
+        }
+    }];
+    for (id creature in sorted) {
+        if ([creature isKindOfClass:[OLHuman class]]) {
+            if ([creature isKindOfClass:[OLDeveloper class]]) {
+                NSLog(@"%@ - %@ человек ростом %.2f см. и весом %.2f кг. начал изучать язык програмирования %@ в возрасте %d лет ", [creature name], [creature isMale]? @"парень":@"девушка", [creature height], [creature weight], [creature language], [creature age]);
+            }else{
+                NSLog(@"%@ - %@ человек ростом %.2f см. и весом %.2f кг.",[creature name], [creature isMale]? @"парень":@"девушка", [creature height], [creature weight]);
+            }
+        }else{
+            NSLog(@"%@ животные относящиеся к симейству %@",[creature name], [creature isPredator]? @"хищники":@"травоядные");
+        }
+        [creature movement];
+    }
+    
     return YES;
 }
 
